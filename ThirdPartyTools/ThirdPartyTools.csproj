@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="FileDates.cs" />
     <Compile Include="FileDetails.cs" />
+    <Compile Include="Interface\IFileDates.cs" />
+    <Compile Include="Interface\IFileDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

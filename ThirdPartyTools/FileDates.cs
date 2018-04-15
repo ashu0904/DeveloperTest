@@ -1,8 +1,9 @@
 ﻿using System;
+using ThirdPartyTools.Interface;
 
 namespace ThirdPartyTools
 {
-    public class FileDates
+    public class FileDates : IFileDates
     {
         private readonly string _filePath;
 
@@ -15,7 +16,7 @@ namespace ThirdPartyTools
         {
             get
             {
-                return DateTimeOffset.UtcNow;
+                return DateTimeOffset.UtcNow; 
             }
         }
 
